@@ -1,0 +1,62 @@
+.img_contain{
+    width: 4.5vh;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    position: relative;
+    top: 2vh;
+    cursor: pointer;
+}
+.img_contain .icon{
+    width: 2vh;
+    height: 2vh;
+    cursor: pointer;
+
+}
+
+.section_contains{
+    background-color: hsl(217, 19%, 24%);
+    width: 60vh;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    padding:  auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+h2{
+    color: hsl(150, 100%, 66%);
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 3vh;
+}
+
+.p_device{
+    color: hsl(216, 19%, 71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+    padding: 3vh;
+}
+
+
+@media (max-width: 720px){
+    .section_contains{
+        margin-left: 0vh;
+    }
+
+    .img_pattt{
+        width: 100vw;
+    }
+}
